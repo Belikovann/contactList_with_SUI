@@ -13,9 +13,7 @@ struct UserListView: View {
     var body: some View {
         NavigationStack {
             List(userListViewModel.users) { user in
-                NavigationLink(destination:
-                                UserDetailsView(user: user))
-                {
+                NavigationLink(destination: UserDetailsView(user: user)) {
                     UserRowView(user: user)
                 }
             }
