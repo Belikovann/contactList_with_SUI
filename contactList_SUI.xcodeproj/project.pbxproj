@@ -11,6 +11,15 @@
 		C8322E112AC721BD008BFD77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E102AC721BD008BFD77 /* ContentView.swift */; };
 		C8322E132AC721BF008BFD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8322E122AC721BF008BFD77 /* Assets.xcassets */; };
 		C8322E162AC721BF008BFD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8322E152AC721BF008BFD77 /* Preview Assets.xcassets */; };
+		C8322E1D2AC726A4008BFD77 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E1C2AC726A4008BFD77 /* User.swift */; };
+		C8322E1F2AC726C6008BFD77 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E1E2AC726C6008BFD77 /* UserListView.swift */; };
+		C8322E212AC7305F008BFD77 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E202AC7305F008BFD77 /* UserListViewModel.swift */; };
+		C8322E232AC73138008BFD77 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E222AC73138008BFD77 /* NewUserView.swift */; };
+		C8322E252AC732E9008BFD77 /* NewUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E242AC732E9008BFD77 /* NewUserViewModel.swift */; };
+		C8322E272AC73384008BFD77 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E262AC73384008BFD77 /* UserDetailsView.swift */; };
+		C8322E292AC733E7008BFD77 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E282AC733E7008BFD77 /* UserRowView.swift */; };
+		C8322E2B2AC73447008BFD77 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E2A2AC73447008BFD77 /* AvatarView.swift */; };
+		C8322E2D2AC73596008BFD77 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8322E2C2AC73596008BFD77 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		C8322E102AC721BD008BFD77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8322E122AC721BF008BFD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8322E152AC721BF008BFD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8322E1C2AC726A4008BFD77 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C8322E1E2AC726C6008BFD77 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		C8322E202AC7305F008BFD77 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		C8322E222AC73138008BFD77 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		C8322E242AC732E9008BFD77 /* NewUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewModel.swift; sourceTree = "<group>"; };
+		C8322E262AC73384008BFD77 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		C8322E282AC733E7008BFD77 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		C8322E2A2AC73447008BFD77 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		C8322E2C2AC73596008BFD77 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,9 @@
 				C8322E102AC721BD008BFD77 /* ContentView.swift */,
 				C8322E122AC721BF008BFD77 /* Assets.xcassets */,
 				C8322E142AC721BF008BFD77 /* Preview Content */,
+				C8322E1C2AC726A4008BFD77 /* User.swift */,
+				C8322E302AC8C8EF008BFD77 /* Views */,
+				C8322E312AC8C8FD008BFD77 /* NetworkManager */,
 			);
 			path = contactList_SUI;
 			sourceTree = "<group>";
@@ -65,6 +86,44 @@
 				C8322E152AC721BF008BFD77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8322E2E2AC8C8C8008BFD77 /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				C8322E222AC73138008BFD77 /* NewUserView.swift */,
+				C8322E242AC732E9008BFD77 /* NewUserViewModel.swift */,
+			);
+			path = NewUser;
+			sourceTree = "<group>";
+		};
+		C8322E2F2AC8C8DE008BFD77 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				C8322E1E2AC726C6008BFD77 /* UserListView.swift */,
+				C8322E202AC7305F008BFD77 /* UserListViewModel.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		C8322E302AC8C8EF008BFD77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8322E2F2AC8C8DE008BFD77 /* UserList */,
+				C8322E2E2AC8C8C8008BFD77 /* NewUser */,
+				C8322E282AC733E7008BFD77 /* UserRowView.swift */,
+				C8322E262AC73384008BFD77 /* UserDetailsView.swift */,
+				C8322E2A2AC73447008BFD77 /* AvatarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8322E312AC8C8FD008BFD77 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C8322E2C2AC73596008BFD77 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8322E112AC721BD008BFD77 /* ContentView.swift in Sources */,
+				C8322E292AC733E7008BFD77 /* UserRowView.swift in Sources */,
 				C8322E0F2AC721BD008BFD77 /* contactList_SUIApp.swift in Sources */,
+				C8322E2B2AC73447008BFD77 /* AvatarView.swift in Sources */,
+				C8322E2D2AC73596008BFD77 /* NetworkManager.swift in Sources */,
+				C8322E1D2AC726A4008BFD77 /* User.swift in Sources */,
+				C8322E252AC732E9008BFD77 /* NewUserViewModel.swift in Sources */,
+				C8322E1F2AC726C6008BFD77 /* UserListView.swift in Sources */,
+				C8322E232AC73138008BFD77 /* NewUserView.swift in Sources */,
+				C8322E212AC7305F008BFD77 /* UserListViewModel.swift in Sources */,
+				C8322E272AC73384008BFD77 /* UserDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
